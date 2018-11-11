@@ -1,0 +1,179 @@
+body {
+	font-family: Karla, sans-serif;
+	margin: auto;
+	color: #BF1548;
+	padding-bottom: 100px;
+}
+
+header {
+  position: fixed;
+  min-height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  left: 0;
+  background-color: white;
+  border-bottom: 1px #403F40 solid;
+}
+
+
+#logo {
+	display: flex;
+	flex-direction: row;
+	padding: 10px;
+}
+
+h1 {
+	padding-left: 10px;
+}
+
+a {
+	text-decoration: none;
+	padding-right: 5px;
+	color: #15BF8C;
+}
+
+.page-minus-header {
+	margin-top: 75px;
+}
+
+.explanation-div {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.container {
+	padding: 20px;
+	margin: auto;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#header {
+	width: 98%;
+}
+
+#header-img {
+	width: 50px;
+	height: 50px;
+}
+
+.section-label {
+	padding-left: 25px;
+	color: #403F40;
+}
+
+.cookie-type-box {
+	width: 30%;
+	margin: 0px 10px 0px 10px;
+	height: 200px;
+	/*border: 1px black solid;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.cookie-type {
+	text-align: center;
+}
+
+.cookie-img {
+	width: 100px;
+}
+
+#pb-cookie {
+	width: 200px;
+}
+
+.labels {
+	text-align: center;
+}
+
+.label-and-input-field {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.input-field-div {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.input-box {
+	height: 25px;
+	width: 300px;
+	font-family: Karla, sans-serif;
+}
+
+.submit-button-div {
+	width: 100px;
+	height: 100px;
+	font-family: Karla, sans-serif;
+}
+
+#submit, .btn {
+	justify-content: center;
+	width: 100px;
+	min-height: 30px;
+	border-radius: 5px;
+	font-family: Karla, sans-serif;
+	background-color: #15BF8C;
+	color: white;
+}
+
+.add-on-box, .packages-box {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: auto 1fr auto;
+	grid-row-gap: 20px;
+	justify-items: center;
+	grid-template-areas:
+		"first-type first-select"
+		"second-type second-select"
+		"third-type third-select";
+}
+
+.d1 {
+	grid-area: first-type;
+}
+
+.d2 {
+	grid-area: first-select;
+}
+
+.d3 {
+	grid-area: second-type;
+}
+
+.d4 {
+	grid-area: second-select;
+}
+
+.d5 {
+	grid-area: third-type;
+}
+
+.d6 {
+	grid-area: third-select;
+}
+
+#email {
+	padding-left: 5px;
+}
+
+@media (max-width: 500px) {
+  h1 {
+  	font-size: 18px;
+  }
+
+  a {
+  	font-size: 14px;
+  }
+}

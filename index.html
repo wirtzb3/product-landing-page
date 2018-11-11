@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </head>
+  <body>
+      <div id="whole-page">
+        <div class="shithead">
+          <header id="header">
+            <div id="logo">
+              <img id="header-img" src="https://www.greatamericancookies.com/app/themes/greatamericancookies/library/images/home/carousel1.png"/>
+              <h1 id="header-name">cookie by car</h1>
+            </div>
+            <nav id="nav-bar">
+              <a class="nav-link" href="#types">types</a>
+              <a class="nav-link" href="#packages">packages</a>
+              <a class="nav-link" href="#add-ons">add-ons</a>
+            </nav>
+          </header>
+        </div>
+      <div class="page-minus-header">
+        <div class="container"></div>
+        <div class="explanation-div">
+          <p id="explanation-text">We will come to you...with freshly baked cookies! Our kitchen is in the middle of Antarctica, and we can deliver anywhere on the continent!</p>
+        </div>
+        <section id="types">
+          <h2 class="section-label">types</h2>
+          <div class="container">
+            <div class="cookie-type-box">
+              <h3 class="cookie-type">chocolate chip</h3>
+              <img class="cookie-img" src="https://cdn.pixabay.com/photo/2014/04/02/17/06/cookie-307960__340.png"/>
+            </div>
+            <div class="cookie-type-box">
+              <h3 class="cookie-type">peanut butter</h3>
+              <img id="pb-cookie" class="cookie-img" src="https://melbournechapter.net/images/peanut-butter-cookie-clipart.png"/>
+            </div>
+            <div class="cookie-type-box">
+              <h3 class="cookie-type">m&m</h3>
+              <img class="cookie-img" src="https://melbournechapter.net/images/cookies-transparent-mnm-6.png"/>
+            </div>
+            <div class="cookie-type-box">
+              <h3 class="cookie-type">snickerdoodle</h3>
+              <img class="cookie-img" src="https://melbournechapter.net/images250_/cookies-transparent-snickerdoodle-3.png"/>
+            </div>
+            <div class="cookie-type-box">
+              <h3 class="cookie-type">sugar</h3>
+              <img class="cookie-img" src="https://melbournechapter.net/images250_/cookies-transparent-snickerdoodle-5.png"/>
+            </div>
+          </div>
+        </section>
+        <section id="packages">
+          <h2 class="section-label">packages</h2>
+          <div class="container">
+            <div class="packages-box">
+              <h3 class="packages-type" class="d1">1 dozen......$52.99</h3>
+              <button class="btn" class="d2">Select</button>
+              <h3 class="packages-type" class="d3">2 dozen......$100.99</h3>
+              <button class="btn" class="d4">Select</button>
+              <h3 class="packages-type" class="d5">3 dozen......$150.99</h3>
+              <button class="btn" class="d6">Select</button>
+              <h3 class="packages-type">Custom pricing for larger packages</h3>
+            </div>
+          </div>
+        </section>
+        <section id="add-ons">
+          <h2 class="section-label">add-ons</h2>
+          <div class="container">
+            <div class="add-on-box">
+              <h3 class="add-on-type">half-gallon milk......$30.99</h3>
+              <button class="btn">Select</button>
+              <h3 class="add-on-type">carafe of hot cocoa......$50.99</h3>
+              <button class="btn">Select</button>
+              <h3 class="add-on-type">pint of ice cream......$42.99</h3>
+              <button class="btn">Select</button>
+            </div>
+          </div>
+        </section>
+        <section id="video-div">
+          <h2 class="section-label">cookie yumminess</h2>
+          <div class="container">
+            <iframe id="video" width="400" height="300" src="https://www.youtube.com/embed/Ye8mB6VsUHw"></iframe>
+          </div>
+        </section>
+        <div id="outer-form">
+          <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <div class="label-and-input-field">
+              <div class="labels">
+              <label id="email-label">for delivery options & times sent to you: </label>
+              </div>
+              <div class="input-field-div">
+                <input name="email" id="email" class="input-box" type="email" required placeholder="Enter your email"/>
+              </div>
+              <div class="submit-button-div">
+                <input id="submit" type="submit" value="Get Cookies"></input>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
